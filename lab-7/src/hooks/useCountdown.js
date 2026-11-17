@@ -32,6 +32,6 @@ export function useCountdown(totalSeconds) {
     setIsRunning(false)
     setSecondsLeft(totalSeconds)
   }
-  
+
   return { secondsLeft, isRunning: running, start, pause, reset }
 }
